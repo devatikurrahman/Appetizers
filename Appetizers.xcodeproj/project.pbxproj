@@ -14,6 +14,7 @@
 		605806572AF455E0004F40C0 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605806562AF455E0004F40C0 /* AppetizerListView.swift */; };
 		605806592AF455EF004F40C0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605806582AF455EF004F40C0 /* AccountView.swift */; };
 		6058065B2AF455F7004F40C0 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6058065A2AF455F7004F40C0 /* OrderView.swift */; };
+		60899D172AF6B93300460ACB /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60899D162AF6B93300460ACB /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		605806562AF455E0004F40C0 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		605806582AF455EF004F40C0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		6058065A2AF455F7004F40C0 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		60899D162AF6B93300460ACB /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				6058065A2AF455F7004F40C0 /* OrderView.swift */,
 				6058064C2AF44399004F40C0 /* Assets.xcassets */,
 				6058064E2AF44399004F40C0 /* Preview Content */,
+				60899D162AF6B93300460ACB /* Appetizer.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				605806592AF455EF004F40C0 /* AccountView.swift in Sources */,
 				6058064B2AF44397004F40C0 /* AppetizerTabView.swift in Sources */,
+				60899D172AF6B93300460ACB /* Appetizer.swift in Sources */,
 				605806492AF44397004F40C0 /* AppetizersApp.swift in Sources */,
 				605806572AF455E0004F40C0 /* AppetizerListView.swift in Sources */,
 				6058065B2AF455F7004F40C0 /* OrderView.swift in Sources */,

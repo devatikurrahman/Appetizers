@@ -9,8 +9,9 @@ import SwiftUI
 
 struct LoadingView: View {
     var body: some View {
+        Image()
         ProgressView()
-            .scaleEffect(3.0)
+            .scaleEffect(1.5)
             
     }
 }

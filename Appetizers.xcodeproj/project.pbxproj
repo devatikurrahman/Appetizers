@@ -16,6 +16,8 @@
 		605806572AF455E0004F40C0 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605806562AF455E0004F40C0 /* AppetizerListView.swift */; };
 		605806592AF455EF004F40C0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605806582AF455EF004F40C0 /* AccountView.swift */; };
 		6058065B2AF455F7004F40C0 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6058065A2AF455F7004F40C0 /* OrderView.swift */; };
+		606DEE942B0A87D90073FD5D /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606DEE932B0A87D90073FD5D /* OrderButton.swift */; };
+		606DEE962B0A88C30073FD5D /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606DEE952B0A88C30073FD5D /* DismissButton.swift */; };
 		60899D172AF6B93300460ACB /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60899D162AF6B93300460ACB /* Appetizer.swift */; };
 		60899D192AF6C79600460ACB /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60899D182AF6C79600460ACB /* AppetizerListCell.swift */; };
 		60AA9C4B2B029FC30001DC04 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AA9C4A2B029FC30001DC04 /* AppetizerListViewModel.swift */; };
@@ -37,6 +39,8 @@
 		605806562AF455E0004F40C0 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		605806582AF455EF004F40C0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		6058065A2AF455F7004F40C0 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		606DEE932B0A87D90073FD5D /* OrderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
+		606DEE952B0A88C30073FD5D /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
 		60899D162AF6B93300460ACB /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		60899D182AF6C79600460ACB /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		60AA9C4A2B029FC30001DC04 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 				60435A7E2B05385300511B53 /* LoadingView.swift */,
 				60899D182AF6C79600460ACB /* AppetizerListCell.swift */,
 				60E6E83B2B07B7C000679AC2 /* RemoteImage.swift */,
+				606DEE932B0A87D90073FD5D /* OrderButton.swift */,
+				606DEE952B0A88C30073FD5D /* DismissButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -244,6 +250,8 @@
 				60D51A3B2B016CCA0020B4F2 /* APError.swift in Sources */,
 				60899D192AF6C79600460ACB /* AppetizerListCell.swift in Sources */,
 				60AA9C4B2B029FC30001DC04 /* AppetizerListViewModel.swift in Sources */,
+				606DEE942B0A87D90073FD5D /* OrderButton.swift in Sources */,
+				606DEE962B0A88C30073FD5D /* DismissButton.swift in Sources */,
 				6058064B2AF44397004F40C0 /* AppetizerTabView.swift in Sources */,
 				60435A7F2B05385300511B53 /* LoadingView.swift in Sources */,
 				60899D172AF6B93300460ACB /* Appetizer.swift in Sources */,

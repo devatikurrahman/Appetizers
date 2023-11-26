@@ -28,6 +28,7 @@
 		60D51A3B2B016CCA0020B4F2 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D51A3A2B016CCA0020B4F2 /* APError.swift */; };
 		60E6E83C2B07B7C000679AC2 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E6E83B2B07B7C000679AC2 /* RemoteImage.swift */; };
 		60E6E8462B07E9C300679AC2 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E6E8452B07E9C300679AC2 /* AppetizerDetailView.swift */; };
+		60E7020B2B13AB47006ACC3D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E7020A2B13AB47006ACC3D /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		60D51A3A2B016CCA0020B4F2 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		60E6E83B2B07B7C000679AC2 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		60E6E8452B07E9C300679AC2 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		60E7020A2B13AB47006ACC3D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				60899D162AF6B93300460ACB /* Appetizer.swift */,
+				60E7020A2B13AB47006ACC3D /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				608075D82B0FE0D700B1045C /* AccountViewModel.swift in Sources */,
 				606DEE942B0A87D90073FD5D /* OrderButton.swift in Sources */,
 				606DEE962B0A88C30073FD5D /* DismissButton.swift in Sources */,
+				60E7020B2B13AB47006ACC3D /* User.swift in Sources */,
 				6058064B2AF44397004F40C0 /* AppetizerTabView.swift in Sources */,
 				60435A7F2B05385300511B53 /* LoadingView.swift in Sources */,
 				60899D172AF6B93300460ACB /* Appetizer.swift in Sources */,

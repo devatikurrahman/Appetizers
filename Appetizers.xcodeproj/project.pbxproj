@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		60403C052B1CE3DC0048E2AD /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60403C042B1CE3DC0048E2AD /* EmptyState.swift */; };
+		60403C072B1CE7D20048E2AD /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60403C062B1CE7D20048E2AD /* Order.swift */; };
 		60435A7F2B05385300511B53 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60435A7E2B05385300511B53 /* LoadingView.swift */; };
 		60435A812B053C9200511B53 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60435A802B053C9200511B53 /* Color+Extension.swift */; };
 		605806492AF44397004F40C0 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605806482AF44397004F40C0 /* AppetizersApp.swift */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		60403C042B1CE3DC0048E2AD /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		60403C062B1CE7D20048E2AD /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		60435A7E2B05385300511B53 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		60435A802B053C9200511B53 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		605806452AF44397004F40C0 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +140,7 @@
 			children = (
 				60899D162AF6B93300460ACB /* Appetizer.swift */,
 				60E7020A2B13AB47006ACC3D /* User.swift */,
+				60403C062B1CE7D20048E2AD /* Order.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				60D51A3B2B016CCA0020B4F2 /* APError.swift in Sources */,
 				60899D192AF6C79600460ACB /* AppetizerListCell.swift in Sources */,
 				608075DA2B0FE26C00B1045C /* String+Extension.swift in Sources */,
+				60403C072B1CE7D20048E2AD /* Order.swift in Sources */,
 				60AA9C4B2B029FC30001DC04 /* AppetizerListViewModel.swift in Sources */,
 				608075D82B0FE0D700B1045C /* AccountViewModel.swift in Sources */,
 				606DEE942B0A87D90073FD5D /* OrderButton.swift in Sources */,

@@ -30,7 +30,7 @@ struct OrderView: View {
                     Button {
                         
                     } label: {
-                        OrderButton(title: "$99.99 - Place Order")
+                        OrderButton(title: "$\(order.totalPrice, specifier: "%.2f") - Place Order")
                     }
                     .padding(.bottom, 20)
                 }

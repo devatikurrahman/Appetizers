@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60403C052B1CE3DC0048E2AD /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60403C042B1CE3DC0048E2AD /* EmptyState.swift */; };
 		60435A7F2B05385300511B53 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60435A7E2B05385300511B53 /* LoadingView.swift */; };
 		60435A812B053C9200511B53 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60435A802B053C9200511B53 /* Color+Extension.swift */; };
 		605806492AF44397004F40C0 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605806482AF44397004F40C0 /* AppetizersApp.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60403C042B1CE3DC0048E2AD /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		60435A7E2B05385300511B53 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		60435A802B053C9200511B53 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		605806452AF44397004F40C0 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +128,7 @@
 				60E6E83B2B07B7C000679AC2 /* RemoteImage.swift */,
 				606DEE932B0A87D90073FD5D /* OrderButton.swift */,
 				606DEE952B0A88C30073FD5D /* DismissButton.swift */,
+				60403C042B1CE3DC0048E2AD /* EmptyState.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				60D51A392B0168F80020B4F2 /* NetworkManager.swift in Sources */,
 				605806492AF44397004F40C0 /* AppetizersApp.swift in Sources */,
 				60E6E83C2B07B7C000679AC2 /* RemoteImage.swift in Sources */,
+				60403C052B1CE3DC0048E2AD /* EmptyState.swift in Sources */,
 				60E6E8462B07E9C300679AC2 /* AppetizerDetailView.swift in Sources */,
 				60AA9C4D2B02A2740001DC04 /* Alert.swift in Sources */,
 				605806572AF455E0004F40C0 /* AppetizerListView.swift in Sources */,

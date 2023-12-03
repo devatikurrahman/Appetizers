@@ -9,35 +9,42 @@ import SwiftUI
 
 struct OrderView: View {
     
-    @State private var orderItem = MockData.appetizers
+    @State private var orderItems = MockData.appetizers
     
     var body: some View {
         NavigationStack {
-            VStack {
-                List {
-                    ForEach(orderItem) { appetizer in
-                        AppetizerListCell(appetizer: appetizer)
+            ZStack {
+                VStack {
+                    List {
+                        ForEach(orderItems) { appetizer in
+                            AppetizerListCell(appetizer: appetizer)
+                        }
+                        .onDelete(perform: deleteItems)
+                        //.onDelete(perform: { indexSet in
+                        //    orderItem.remove(atOffsets: indexSet)
+                        //})
                     }
-                    .onDelete(perform: deleteItems)
-                    //.onDelete(perform: { indexSet in
-                    //    orderItem.remove(atOffsets: indexSet)
-                    //})
-                }
-                .listStyle(PlainListStyle())
-                
-                Button {
+                    .listStyle(PlainListStyle())
                     
-                } label: {
-                    OrderButton(title: "$99.99 - Place Order")
+                    Button {
+                        
+                    } label: {
+                        OrderButton(title: "$99.99 - Place Order")
+                    }
+                    .padding(.bottom, 20)
                 }
-                .padding(.bottom, 20)
+                
+                if orderItems.isEmpty {
+                    EmptyState(imageName: "empty-order",
+                               message: "You have no items in your order. \nPlease add an appetizer!")
+                }
             }
             .navigationTitle("Orders")
         }
     }
     
     func deleteItems(at offsets: IndexSet) {
-        orderItem.remove(atOffsets: offsets)
+        orderItems.remove(atOffsets: offsets)
     }
 }
 

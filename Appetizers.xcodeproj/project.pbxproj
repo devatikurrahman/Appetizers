@@ -18,6 +18,7 @@
 		605806572AF455E0004F40C0 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605806562AF455E0004F40C0 /* AppetizerListView.swift */; };
 		605806592AF455EF004F40C0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605806582AF455EF004F40C0 /* AccountView.swift */; };
 		6058065B2AF455F7004F40C0 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6058065A2AF455F7004F40C0 /* OrderView.swift */; };
+		605A94672B1E4037008138CE /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605A94662B1E4037008138CE /* CustomModifiers.swift */; };
 		606DEE942B0A87D90073FD5D /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606DEE932B0A87D90073FD5D /* OrderButton.swift */; };
 		606DEE962B0A88C30073FD5D /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606DEE952B0A88C30073FD5D /* DismissButton.swift */; };
 		608075D82B0FE0D700B1045C /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608075D72B0FE0D700B1045C /* AccountViewModel.swift */; };
@@ -46,6 +47,7 @@
 		605806562AF455E0004F40C0 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		605806582AF455EF004F40C0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		6058065A2AF455F7004F40C0 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		605A94662B1E4037008138CE /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		606DEE932B0A87D90073FD5D /* OrderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
 		606DEE952B0A88C30073FD5D /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
 		608075D72B0FE0D700B1045C /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				606DEE932B0A87D90073FD5D /* OrderButton.swift */,
 				606DEE952B0A88C30073FD5D /* DismissButton.swift */,
 				60403C042B1CE3DC0048E2AD /* EmptyState.swift */,
+				605A94662B1E4037008138CE /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				60E6E8462B07E9C300679AC2 /* AppetizerDetailView.swift in Sources */,
 				60AA9C4D2B02A2740001DC04 /* Alert.swift in Sources */,
 				605806572AF455E0004F40C0 /* AppetizerListView.swift in Sources */,
+				605A94672B1E4037008138CE /* CustomModifiers.swift in Sources */,
 				6058065B2AF455F7004F40C0 /* OrderView.swift in Sources */,
 				60435A812B053C9200511B53 /* Color+Extension.swift in Sources */,
 			);

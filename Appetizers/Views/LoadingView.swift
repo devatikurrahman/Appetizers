@@ -11,7 +11,7 @@ struct LoadingView: View {
     var body: some View {
         LinearGradient(gradient: Gradient(colors: [.black]), startPoint: .topLeading, endPoint: .bottomTrailing)
             .opacity(0.3)
-            .edgesIgnoringSafeArea(.all)
+            .ignoresSafeArea()
         ProgressView()
             .scaleEffect(1.5)
             

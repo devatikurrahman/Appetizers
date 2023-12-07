@@ -16,11 +16,15 @@ final class NetworkManager {
     
     private init() {}
     
-    func getAppetizers(completed: @escaping (Result<[Appetizer], APError>) -> Void) {
+    func getAppetizers() async throws -> [Appetizer] {
+    //func getAppetizers(completed: @escaping (Result<[Appetizer], APError>) -> Void) {
+        
         guard let url = URL(string: appetizerURL) else {
-            completed(.failure(.invalidURL))
-            return
+            throw APError.invalidURL
         }
+        
+        let (data, response) = try await URLSession.shared.data(from: url)
+        
         
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, response, error in
             if let _ = error {

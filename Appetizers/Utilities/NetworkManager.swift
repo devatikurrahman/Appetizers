@@ -23,10 +23,17 @@ final class NetworkManager {
             throw APError.invalidURL
         }
         
-        let (data, response) = try await URLSession.shared.data(from: url)
+        let (data, _) = try await URLSession.shared.data(from: url)
         
+        do {
+            let decoder = JSONDecoder()
+            let responseData = try decoder.decode(AppetizerResponse.self, from: data)
+            return responseData.request
+        } catch {
+            throw APError.invalidData
+        }
         
-        let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, response, error in
+        /*let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, response, error in
             if let _ = error {
                 completed(.failure(.unableToComplete))
                 return
@@ -52,6 +59,7 @@ final class NetworkManager {
         }
         
         task.resume()
+        */
     }
     
     func downloadImage(fromURLString urlString: String, completed: @escaping(UIImage?) -> Void) {

@@ -11,6 +11,7 @@
 		60403C072B1CE7D20048E2AD /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60403C062B1CE7D20048E2AD /* Order.swift */; };
 		60435A7F2B05385300511B53 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60435A7E2B05385300511B53 /* LoadingView.swift */; };
 		60435A812B053C9200511B53 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60435A802B053C9200511B53 /* Color+Extension.swift */; };
+		6046A0D32B2A569A0020A6F9 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6046A0D22B2A569A0020A6F9 /* Date+Extension.swift */; };
 		605806492AF44397004F40C0 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605806482AF44397004F40C0 /* AppetizersApp.swift */; };
 		6058064B2AF44397004F40C0 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6058064A2AF44397004F40C0 /* AppetizerTabView.swift */; };
 		6058064D2AF44399004F40C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6058064C2AF44399004F40C0 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		60403C062B1CE7D20048E2AD /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		60435A7E2B05385300511B53 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		60435A802B053C9200511B53 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		6046A0D22B2A569A0020A6F9 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		605806452AF44397004F40C0 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		605806482AF44397004F40C0 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		6058064A2AF44397004F40C0 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				60D51A382B0168F80020B4F2 /* NetworkManager.swift */,
 				60435A802B053C9200511B53 /* Color+Extension.swift */,
 				608075D92B0FE26C00B1045C /* String+Extension.swift */,
+				6046A0D22B2A569A0020A6F9 /* Date+Extension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6046A0D32B2A569A0020A6F9 /* Date+Extension.swift in Sources */,
 				605806592AF455EF004F40C0 /* AccountView.swift in Sources */,
 				60D51A3B2B016CCA0020B4F2 /* APError.swift in Sources */,
 				60899D192AF6C79600460ACB /* AppetizerListCell.swift in Sources */,

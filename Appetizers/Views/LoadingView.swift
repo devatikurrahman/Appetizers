@@ -13,6 +13,7 @@ struct LoadingView: View {
             .opacity(0.3)
             .ignoresSafeArea()
         ProgressView()
+            .progressViewStyle(CircularProgressViewStyle(tint: .brandPrimary))
             .scaleEffect(1.5)
             
     }
